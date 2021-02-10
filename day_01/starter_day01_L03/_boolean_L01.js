@@ -6,3 +6,6 @@ var country="maroc";
 
 var age=21;
 var isMarried =false;
+var year="1999";
+
+console.log(typeof("abdelhamid"));
