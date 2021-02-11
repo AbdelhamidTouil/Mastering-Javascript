@@ -36,17 +36,8 @@ var v3=true;
 var v4=false;
 var v5=false;
 var v6=false;
-//5 1. 4 > 3
-/*2. 4 >= 3
-3. 4 < 3
-4. 4 <= 3
-5. 4 == 4
-6. 4 === 4
-7. 4 != 4
-8. 4 !== 4
-9. 4 != '4'
-10. 4 == '4'
-11. 4 === '4'*/
+//5 
+
 var a4=4;
 var a3=3;
 var res=true;
@@ -130,8 +121,118 @@ else{
    }
    console.log(r);
    //6
-    4 > 3 && 10 < 12
+   var c=true;
+   var d=false;
+    
     if(4>3 && 10<12)
     {
-        return 
+         console.log(c);
     }
+    else{
+        console.log(d);
+    }
+    //6/2
+
+   if(4>3 || 10<12)
+    {
+         console.log(c);
+    }
+    else{
+        console.log(d);
+    }
+    //6/3
+    if(4>3 || 10>12)
+    {
+         console.log(c);
+    }
+    else{
+        console.log(d);
+    }
+    //6/4
+    if(!(4 > 3))
+    {
+         console.log(c);
+    }
+    else{
+        console.log(d);
+    }
+    //6/5
+    if(!(4 < 3))
+    {
+         console.log(c);
+    }
+    else{
+        console.log(d);
+    }
+    //6/6
+    if(!(false))
+    {
+         console.log(c);
+    }
+    else{
+        console.log(d);
+    }
+    //6/7
+    if(!(4 > 3 && 10 < 12))
+    {
+         console.log(c);
+    }
+    else{
+        console.log(d);
+    }
+    //6/8
+    if(!(4 > 3 && 10 > 12))
+    {
+         console.log(c);
+    }
+    else{
+        console.log(d);
+    }
+    //6/9
+    if(!(4 === '4') )
+    {
+         console.log(c);
+    }
+    else{
+        console.log(d);
+    }
+    //6/11
+    var d="dragon";
+    var py="ython";
+    if(d.match("on"))
+    {
+        console.log(true);
+    }
+    else{
+        console.log(false);
+    }
+
+    if(py.match("on"))
+    {
+        console.log(true);
+    }
+    else{
+        console.log(false);
+    }
+
+    
+  
+  //7
+  //7/1
+  var dd = new Date();
+  console.log(dd.getFullYear()) ;
+  //7/2
+  console.log(dd.getMonth()) ;
+  //7/3
+ console.log(dd.getTime());
+  //7/4
+  console.log(dd.getDate()) ;
+  //7/5
+  console.log(dd.getHours()) ;
+  //7/6
+  console.log(dd.getMinutes()) ;
+  //7/7*******************************************************************
+  console.log(dd.getTime()-getTime(1-6-1970));
+  
+
+   
