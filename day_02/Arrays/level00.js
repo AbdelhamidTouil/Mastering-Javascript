@@ -30,7 +30,14 @@ console.log(itCompanies[3]);
 console.log(itCompanies[4]);
 console.log(itCompanies[5]);
 console.log(itCompanies[6]);
-//11**********************************************************
+//11
+
+for(i=0;i<itCompanies.length;i++)
+{
+    console.log(itCompanies[i].toUpperCase());
+}
+
+
 /*console.log(itCompanies.toUpperCase());*/
 //12
 console.log(itCompanies+"sont de grandes entreprises d'IT.");
@@ -57,16 +64,21 @@ console.log(itCompanies);
 console.log(itCompanies.slice(3));
 //18
 console.log(itCompanies.slice(0,4));
-//19********************************
+//19*************************
+
 //20
 delete itCompanies[0];
-//21****************************
-delete itCompanies[];
-//22**************************
-delete itCompanies[];
-//23. Supprimez toutes les entreprises d'IT.*************
-delete itCompanies;
+//21
 
+delete itCompanies[Math.floor(itCompanies.length /2)]
+//22
+delete itCompanies[itCompanies(length-1)];
+//23. Supprimez toutes les entreprises d'IT.*************
+
+for(i=0;i<itCompanies.length;i++)
+{
+    delete itCompanies[i];
+}
 
 
 
