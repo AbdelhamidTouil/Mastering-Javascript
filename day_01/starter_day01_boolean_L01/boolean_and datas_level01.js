@@ -231,8 +231,12 @@ else{
   console.log(dd.getHours()) ;
   //7/6
   console.log(dd.getMinutes()) ;
-  //7/7*******************************************************************
-  console.log(dd.getTime()-getTime(1-6-1970));
+  //7/7
+  var d1 = new Date(1970, 01, 01);
+var d=new Date()
+
+console.log((d.getTime()-d1.getTime())/1000);
+
   
 
    
