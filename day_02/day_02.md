@@ -1,4 +1,4 @@
-# 🌕 Day02: Is loading!
+# 🌕 Day02:
 
 ## Arrays --> Level00
 
@@ -128,42 +128,122 @@ const webTechs = [
    10 x 10 = 100
    ```
 
-6. Utilisez une boucle pour affichez le modèle suivant à l'aide de console.log():
-
-   ```sh
-    i    i^2   i^3
-    0    0     0
-    1    1     1
-    2    4     8
-    3    9     27
-    4    16    64
-    5    25    125
-    6    36    216
-    7    49    343
-    8    64    512
-    9    81    729
-    10   100   1000
-   ```
-
-7. Utilisez la boucle **for** pour parcourir de 0 à 100 et n'afficher que des nombres pairs
-8. Utilisez la boucle **for** pour parcourir de 0 à 100 et n'afficher que les nombres impairs
-9. Utilisez la boucle **for** pour parcourir de 0 à 100 et n'afficher que les nombres premiers
-10. Utilisez la boucle **for** pour parcourir de 0 à 100 et afficher la somme de tous les nombres.
+6. Utilisez la boucle **for** pour parcourir de 0 à 100 et n'afficher que des nombres pairs
+7. Utilisez la boucle **for** pour parcourir de 0 à 100 et n'afficher que les nombres impairs
+8. Utilisez la boucle **for** pour parcourir de 0 à 100 et n'afficher que les nombres premiers
+9. Utilisez la boucle **for** pour parcourir de 0 à 100 et afficher la somme de tous les nombres.
 
     ```sh
     La somme de tous les nombres de 0 à 100 est 5050.
     ```
 
-11. Utilisez la boucle **for** pour itérer de 0 à 100 et afficher la somme de tous les nombres pairs et la somme de toutes les nombres impairs.
-
-    ```sh
-    La somme de tous les nombres pairs de 0 à 100 est 2550. Et la somme de tous les nombres impairs est 0 à 100 est 2500.
-    ```
-
 ## Loops --> Level01
 
+1. Développez un script qui génère n'importe quel nombre de caractères aléatoire:
 
+    ```sh
+      fe3jo1gl124g
+    ```
+
+    ```sh
+      xkqci4utda1lmbelpkm03rba
+    ```
+    
+2. Ecrivez un script qui génère un numéro de couleur RGB aléatoire. 
+
+    ```sh
+    rgb(240,180,80)
+    ```
+
+## Functions --> Level01
+
+1. Déclarez une fonction _fullName_ qui affiche votre nom complet.
+2. Déclarez une fonction _newFullName_ qui prend firstName, lastName comme paramètre et elle renvoie *return* votre nom complet.
+3. Déclarez une fonction _addNumbers_ qui prend deux deux paramètres et elle renvoie *return* la somme.
+4. Une aire d'un rectangle est calculée comme suit: _area = longueur x largeur_. Ecrivez une fonction qui calcule _areaOfRectangle_.
+5. Le périmètre d'un rectangle est calculé comme suit: _perimeter = 2x (longueur + largeur)_. Ecrivez une fonction qui calcule _perimeterOfRectangle_.
+6. L'aire d'un cercle est calculée comme suit: _area = π x r x r_. Ecrire une fonction qui calcule _areaOfCircle_
+7. La température en C° peut être convertie en F° en utilisant cette formule: _F° = (C° x 9/5) + 32_. Écrivez une fonction qui convertit C° en F°_convertCelciusToFahrenheit_.
+8. Écrivez une fonction appelée _checkSeason_, elle prend un paramètre du mois et renvoie la saison: Automne, Hiver, Printemps ou Été.
+9. Math.max renvoie son plus grand argument. Écrivez une fonction findMax qui prend trois arguments et renvoie leur maximum sans utiliser la méthode Math.max.
+
+    ```js
+    console.log(findMax(0, 10, 5))
+    10
+    console.log(findMax(0, -10, -2))
+    0
+    ```
+  ## Objects --> Level01
+
+1. Créez un objet vide appelé *chien*
+2. Affichez l'objet *chien* sur la console
+3. Ajoutez le nom, les pattes, la couleur, l'âge et les propriétés d'écorce pour l'objet *chien*. La propriété bark est une méthode qui renvoie _woof woof_
+4. Obtenez le nom, les pattes, la couleur, l'âge et la valeur de l'écorce de l'objet *chien*
+5. Définissez les nouvelles propriétés de l'objet *chien*: race, getDogInfo 
+
+  ## Objects --> Level02
+
+1. Trouvez la personne qui possède de nombreuses compétences dans l'objet users.
+2. Comptez les users connectés, comptez les users ayant plus de 50 points de l'objet suivant. 
+
+   ````js
+   const users = {
+     Alex: {
+       email: 'alex@alex.com',
+       skills: ['HTML', 'CSS', 'JavaScript'],
+       age: 20,
+       isLoggedIn: false,
+       points: 30
+     },
+     Asab: {
+       email: 'asab@asab.com',
+       skills: ['HTML', 'CSS', 'JavaScript', 'Redux', 'MongoDB', 'Express', 'React', 'Node'],
+       age: 25,
+       isLoggedIn: false,
+       points: 50
+     },
+     Brook: {
+       email: 'daniel@daniel.com',
+       skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux'],
+       age: 30,
+       isLoggedIn: true,
+       points: 50
+     },
+     Daniel: {
+       email: 'daniel@alex.com',
+       skills: ['HTML', 'CSS', 'JavaScript', 'Python'],
+       age: 20,
+       isLoggedIn: false,
+       points: 40
+     },
+     John: {
+       email: 'john@john.com',
+       skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux', 'Node.js'],
+       age: 20,
+       isLoggedIn: true,
+       points: 50
+     },
+     Thomas: {
+       email: 'thomas@thomas.com',
+       skills: ['HTML', 'CSS', 'JavaScript', 'React'],
+       age: 20,
+       isLoggedIn: false,
+       points: 40
+     },
+     Paul: {
+       email: 'paul@paul.com',
+       skills: ['HTML', 'CSS', 'JavaScript', 'MongoDB', 'Express', 'React', 'Node'],
+       age: 20,
+       isLoggedIn: false,
+       points: 40
+     }
+   }```
+
+1. Recherchez des personnes qui sont des développeurs MERN Stack à partir de l'objet users. MERN (MongoDB, Express, React, Node)
+2. Définissez votre nom dans l'objet users sans modifier l'objet utilisateur d'origine
+3. Obtenez toutes les clés ou propriétés de l'objet users
+4. Obtenez toutes les valeurs de l'objet users
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 1](./day_01/day_01.md) | [Day 3 >>](./day_03/day_03.md)
+[<< Day 1](../day_01/day_01.md) | [Day 3 >>](../day_03/day_03.md)
