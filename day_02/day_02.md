@@ -158,7 +158,7 @@ const webTechs = [
 ## Functions --> Level01
 
 1. Déclarez une fonction _fullName_ qui affiche votre nom complet.
-2. Déclarez une fonction _newFullName_ qui prend firstName, lastName comme paramètre et elle renvoie *return* votre nom complet.
+2  Déclarez une fonction newFullName qui prend firstName, lastName comme paramètre et elle renvoie return votre nom complet.
 3. Déclarez une fonction _addNumbers_ qui prend deux deux paramètres et elle renvoie *return* la somme.
 4. Une aire d'un rectangle est calculée comme suit: _area = longueur x largeur_. Ecrivez une fonction qui calcule _areaOfRectangle_.
 5. Le périmètre d'un rectangle est calculé comme suit: _perimeter = 2x (longueur + largeur)_. Ecrivez une fonction qui calcule _perimeterOfRectangle_.

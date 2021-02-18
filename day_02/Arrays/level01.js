@@ -19,7 +19,7 @@ else
 console.log(shoppingCart)*/
 
 //3/2 - ajoutez 'Sugar' au début de votre panier s'il n'a pas déjà été ajouté.
-if('Meat'==shoppingCart)
+if('Sugar'==shoppingCart)
 {
     console.log("exist")
 }

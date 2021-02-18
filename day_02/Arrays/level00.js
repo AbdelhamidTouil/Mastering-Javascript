@@ -32,7 +32,7 @@ console.log(itCompanies[5]);
 console.log(itCompanies[6]);
 //11
 
-for(i=0;i<itCompanies.length;i++)
+for(i=0;i<=itCompanies.length;i++)
 {
     console.log(itCompanies[i].toUpperCase());
 }

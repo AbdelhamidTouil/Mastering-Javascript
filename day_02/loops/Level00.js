@@ -1,7 +1,7 @@
 /*//1 for 
 var i=0;
 var j=0;
-for(i=0;i<10;i++)
+for(i=0;i<=10;i++)
 {
     console.log(i);
 }
@@ -47,7 +47,8 @@ for(i=0;i<5;i++)
 }*/
 //4**************************
 //5
-/*var i=0;
+/*
+var i=0;
 var j=0;
 
 for(i==0;i<=10;i++)
@@ -57,7 +58,8 @@ for(i==0;i<=10;i++)
         console.log(i+" * "+j +" = "+ i*j);
     }
    
-}*/
+}
+*/
 //6
 /*
 var i=0;
@@ -69,7 +71,7 @@ for(i=0;i<=10;i++)
 //7  Utilisez la boucle **for** pour parcourir de 0 à 100 et n'afficher que des nombres pairs
 
     
-/*for(i=0;i<100;i++)
+/*for(i=0;i<=100;i++)
 {
     if(i%2==0)
     {console.log(i);}
@@ -109,6 +111,7 @@ for( var i=0;i<=100;i++)
 {
     
     j+=i;
+
 }
 console.log(j)
 
