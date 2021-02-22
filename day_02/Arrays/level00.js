@@ -38,11 +38,11 @@ for(i=0;i<=itCompanies.length;i++)
 }
 
 
-/*console.log(itCompanies.toUpperCase());*/
+console.log(itCompanies.toUpperCase());
 //12
 console.log(itCompanies+"sont de grandes entreprises d'IT.");
 //13
-/*var key = prompt("enter here") ;
+var key = prompt("enter here") ;
 if (itCompanies.includes(key)) 
 {
     console.log(key)
@@ -50,9 +50,15 @@ if (itCompanies.includes(key))
 else
 {
     console.log("introuvable")
-}*/
-//14**********************************
+
+//14**
 //Filtrez les entreprises qui ont plus d'un 'o' sans utiliser la méthode *filter*
+var itCompanies=["Facebook","Google", "Microsoft", "Apple", "IBM", "Oracle" ,"Amazon"];
+for(item in itCompanies )
+{
+     var a=itCompanies[item].includes("oo")
+    console.log(a)
+}
 
 //15 Trier le tableau en utilisant la méthode sort()
  itCompanies.sort();
@@ -79,8 +85,4 @@ for(i=0;i<itCompanies.length;i++)
 {
     delete itCompanies[i];
 }
-
-
-
-
-
+}

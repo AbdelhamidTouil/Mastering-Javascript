@@ -50,4 +50,53 @@ const users = {
       points: 40
     }
 }
-console.log(users.Alex)
+///////////////////
+
+//** 1. Trouvez la personne qui possède de nombreuses compétences dans l'objet users.*/
+
+
+var t=0;
+var y;
+for(var items in users)
+{
+
+if(t<users[items].skills.length)
+
+{
+t=users[items].skills.length;
+y=users[items];
+
+}
+    
+}
+console.log(y)
+
+
+
+
+
+//** 2. Comptez les users connectés, comptez les users ayant plus de 50 points de l'objet suivant.  */
+
+
+var t=0;
+
+for(var items in users)
+{
+
+if(users[items].points>=50)
+{
+
+t++;
+
+}
+    
+}
+console.log(t)
+
+//**3 - 4 */
+Object.keys(users)
+  .forEach(function eachKey(key)
+   { 
+    console.group(key); // alerts key 
+    console.group(users[key]); // alerts value
+  });
