@@ -45,7 +45,7 @@ function avant(item) {
 //4
 
 var nom = ["kj", "op", "vcd"];
-pays.forEach(avant);
+nom.forEach(avant);
 function avant(item) {
     console.log(item)
   
@@ -114,7 +114,7 @@ const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present']
 const result = words.filter(word => word.length >= 6);
 
 console.log(result);
-//13 l3ks
+//13 l3ks******
 var words =["hhh","azerty","wxcvbn","Em","EE","hhEk"]
 const result = words.filter(word => word.indexOf("E"));
 console.log(result);
@@ -134,7 +134,7 @@ const reducer = (a , b) => a + b;
 console.log(numbers.reduce(reducer));
 //16
 const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand']
-const reducer=(a,b)=>a+" "+b
+const reducer=(a,b)=>a+" "+b+" "+"are north European countries"
 console.log(countries.reduce(reducer))
 //17
 /*La seule différence est que la méthode some () retournera true si un prédicat est vrai alors que every () 

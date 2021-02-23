@@ -1,9 +1,11 @@
 //1
 const monSet = new Set([]);
-//2
-monSet.add(1);         // { 1 }
-monSet.add(5);         // { 1, 5 }
-monSet.add("texte");// { 1, 5, "du texte" }
+//2  Créez un ensemble **set** contenant 0 à 10 en utilisant la boucle
+const monSet = new Set([]);
+for(var i=0;i<=10;i++)
+{
+    monSet.add(i);
+}
 console.log(monSet)
 //3
 monSet.delete(1)

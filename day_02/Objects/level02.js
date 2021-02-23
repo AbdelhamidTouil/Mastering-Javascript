@@ -75,7 +75,7 @@ console.log(y)
 
 
 
-//** 2. Comptez les users connectés, comptez les users ayant plus de 50 points de l'objet suivant.  */
+// 2. Comptez les users connectés, comptez les users ayant plus de 50 points de l'objet suivant. 
 
 
 var t=0;
@@ -92,6 +92,33 @@ t++;
     
 }
 console.log(t)
+//1 //1
+var t=0;
+var y=[];
+for(var items in users)
+{
+
+if(users[items].skills.includes("MongoDB", "Express", "React", "Node"))
+
+{
+y += items + " " ;
+
+}
+    
+}
+console.log(y)
+//2
+//2
+users.abdelhamid = {
+  email: 'paul@paul.com',
+  skills: ['HTML', 'CSS', 'JavaScript', 'MongoDB', 'Express', 'React', 'Node'],
+  age: 20,
+  isLoggedIn: false,
+  points: 40
+}
+
+
+
 
 //**3 - 4 */
 Object.keys(users)
